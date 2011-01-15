@@ -1,0 +1,3 @@
+ConfigObject
+MySQL-Python
+pysqlite
