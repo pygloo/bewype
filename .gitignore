@@ -1,0 +1,9 @@
+syntax: glob
+*.egg-info
+*.pyc
+*.swp
+*.ini
+*.ini.py
+config.ini
+gunicorn.conf.py
+gunicorn.sh

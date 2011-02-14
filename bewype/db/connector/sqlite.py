@@ -1,4 +1,4 @@
-# (C) Copyright 2010 MxM Technology <http://mxmtech.com>
+# (C) Copyright 2010 Bewype <http://www.bewype.org>
 
 # sqlite3 import
 import sqlite3

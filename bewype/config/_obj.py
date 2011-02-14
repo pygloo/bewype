@@ -16,7 +16,8 @@ CONF_DIR = os.path.join('.', 'config')
 
 def _update_filenames(config_path, filenames, env=None):
     # prepare env path
-    _path = config_path if env is None else os.path.join(config_path, env)
+    _path = config_path if env is None or not os.path.exists(config_path)\
+            else os.path.join(config_path, env)
     # little check
     if os.path.exists(_path):
         pass
